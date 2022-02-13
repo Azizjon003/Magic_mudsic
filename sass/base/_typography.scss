@@ -25,3 +25,29 @@
     color: grey;
   }
 }
+.listen_section_name {
+  font-size: 4.4rem;
+  color: $color_white;
+}
+.listen_section_about {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  width: 50%;
+  letter-spacing: 3px;
+  line-height: 1.7;
+  color: white;
+}
+.search_section_name {
+  font-size: 3rem;
+  color: white;
+}
+.search_section_about {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: grey;
+  width: 100%;
+  line-height: 1.8;
+  span {
+    color: $color_blue__1;
+  }
+}

@@ -134,4 +134,56 @@ body {
   color: grey;
 }
 
+.listen_section_name {
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.listen_section_about {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  width: 50%;
+  letter-spacing: 3px;
+  line-height: 1.7;
+  color: white;
+}
+
+.search_section_name {
+  font-size: 3rem;
+  color: white;
+}
+
+.search_section_about {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  color: grey;
+  width: 100%;
+  line-height: 1.8;
+}
+.search_section_about span {
+  color: #2d9bef;
+}
+
+.listen_section {
+  width: 100%;
+  height: 60vh;
+  background-image: url("/Listen anytime, anywhere.png");
+  background-position: center;
+  background-size: cover;
+  padding: 20rem;
+}
+
+.search_section {
+  width: 100%;
+  height: 80vh;
+  background-color: #161a1a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15rem 20rem;
+}
+.search_section img {
+  width: 60%;
+}
+
 /*# sourceMappingURL=style.css.map */
