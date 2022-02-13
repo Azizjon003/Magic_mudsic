@@ -164,6 +164,33 @@ body {
   color: #2d9bef;
 }
 
+.premium_section_name {
+  text-align: center;
+  color: #fff;
+  font-size: 5rem;
+}
+
+.section_card_name {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.section_card_about {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.listen_free {
+  text-align: center;
+  font-size: 1.8rem;
+  color: grey;
+}
+
 .listen_section {
   width: 100%;
   height: 60vh;
@@ -175,7 +202,7 @@ body {
 
 .search_section {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #161a1a;
   display: flex;
   justify-content: space-around;
@@ -184,6 +211,73 @@ body {
 }
 .search_section img {
   width: 60%;
+}
+
+.premium_section {
+  width: 100%;
+  background-color: #161a1a;
+  padding: 15rem;
+}
+
+.section_card {
+  margin-top: 10rem;
+  padding: 0 15rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_card__1 {
+  text-align: center;
+}
+
+.section_premium_card {
+  margin-top: 10rem;
+}
+
+.premium_card--1 {
+  display: inline-block;
+  width: 30rem;
+  border: 2px solid white;
+  padding: 3.5rem 2rem;
+  margin-top: 5rem;
+  margin-left: 20rem;
+}
+
+.premuim_card--1__1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.premium--1__2 {
+  color: white;
+  font-size: 1.6rem;
+}
+.premium--1__2 span {
+  font-size: 3rem;
+}
+
+.premuim_list {
+  margin-top: 3rem;
+}
+.premuim_list li {
+  font-size: 1.6rem;
+  list-style: none;
+  color: white;
+}
+.premuim_list li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.premium_a {
+  transform: translate(10rem, 30rem);
+}
+
+.color {
+  color: #2d9bef;
+}
+
+.color_1 {
+  border: 2px solid #2d9bef;
 }
 
 /*# sourceMappingURL=style.css.map */

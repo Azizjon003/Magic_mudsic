@@ -51,3 +51,26 @@
     color: $color_blue__1;
   }
 }
+.premium_section_name {
+  text-align: center;
+  color: $color_white;
+  font-size: 5rem;
+}
+.section_card_name {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+.section_card_about {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  text-align: center;
+  color: $color_white;
+}
+.listen_free {
+  text-align: center;
+  font-size: 1.8rem;
+  color: grey;
+}
