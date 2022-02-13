@@ -1,38 +1,38 @@
 .header {
-  background-image: $linear-gradient, url(../img/hero.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("/img/headerbackground.png");
   background-position: center;
   background-size: cover;
-  height: 90vh;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  margin: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6rem;
-  .logo {
-    align-self: flex-start;
-    width: 8%;
-    margin: 2rem 2rem;
+
+  padding: 2rem 10rem;
+  &_logo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: $color_white;
+  }
+  &__1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_list {
+    list-style: none;
+    font-size: 1.6rem;
+    display: flex;
+    column-gap: 2rem;
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
   }
 }
-
-.flex {
+.header_about {
+  margin: 20rem 40rem;
   display: flex;
   flex-direction: column;
-  row-gap: 2.5rem;
-  h1 {
-    font-size: 8rem;
-    font-weight: 60;
-    letter-spacing: 8px;
-    color: white;
-    animation-duration: 3s;
-    animation-name: moveleft;
-  }
-  h2 {
-    font-size: 4rem;
-    font-weight: 500;
-    color: white;
-    animation-duration: 2s;
-    animation-name: moveleft;
-  }
+  row-gap: 4rem;
+  align-items: center;
 }

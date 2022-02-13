@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.about_section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 15rem;
+  align-items: center;
+  background-color: #0e0f0f;
+  padding: 10rem 20rem;
+  margin: 0 auto;
+}
+.about_section_img {
+  margin-top: rem;
+  background-image: url(/img/Phone\ Finder.png);
+  background-position: center;
+  background-size: cover;
+  width: 80rem;
+  height: 50rem;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  background-image: url("/img/headerbackground.png");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 10rem;
+}
+.header_logo {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.header__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_list {
+  list-style: none;
+  font-size: 1.6rem;
+  display: flex;
+  column-gap: 2rem;
+}
+.header_list a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.header_about {
+  margin: 20rem 40rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4rem;
+  align-items: center;
+}
+
+.log_in__1 {
+  border: 2px solid #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+}
+
+.log_in__2 {
+  border: 2px solid black;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+#color_black {
+  color: black;
+}
+
+.header_about_button {
+  display: flex;
+  column-gap: 5rem;
+  font-size: 1.6rem;
+}
+.header_about_button--1 {
+  text-decoration: none;
+  color: white;
+  border: 1.5px solid #fff;
+  padding: 8px 2rem;
+  border-radius: 20px;
+}
+.header_about_button--1__1 {
+  background-image: linear-gradient(to right, #2d9bef, #9b2def);
+}
+
+.header_about_name {
+  text-align: center;
+  width: 100%;
+  font-size: 5.6rem;
+  color: white;
+  line-height: 1.4;
+}
+
+.button_about {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.button_about span {
+  color: #2d9bef;
+}
+
+.about_section_1 {
+  color: white;
+}
+.about_section_1_name {
+  font-size: 4.4rem;
+  margin-bottom: 1rem;
+}
+.about_section_1_about {
+  font-size: 1.8rem;
+  width: 60%;
+  line-height: 1.8;
+  color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
