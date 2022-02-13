@@ -116,7 +116,7 @@ body {
 .footer_logo {
   color: white;
   font-size: 2.4rem;
-  transform: translateX();
+  transform: translateY(-70px);
 }
 
 .footer_box {
@@ -138,6 +138,7 @@ body {
   display: flex;
   flex-direction: row;
   column-gap: 1.5rem;
+  transform: translateY(-60px);
 }
 
 .footer_box_2 {
