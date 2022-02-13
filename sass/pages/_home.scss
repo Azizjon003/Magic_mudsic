@@ -1,0 +1,51 @@
+.footer_box_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 40vh;
+  padding: 0 10rem;
+}
+.footer_logo {
+  color: white;
+  font-size: 2.4rem;
+  transform: translateX();
+}
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  &_name {
+    color: white;
+    font-size: 2rem;
+  }
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: grey;
+  }
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+.footer_box_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  background-color: black;
+  select {
+    background-color: grey;
+  }
+}
+.footer_box_3 {
+  display: flex;
+  column-gap: 2.5rem;
+  font-size: 1.6rem;
+  a {
+    text-decoration: none;
+    color: grey;
+  }
+}

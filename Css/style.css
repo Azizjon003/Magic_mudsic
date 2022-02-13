@@ -104,6 +104,63 @@ body {
   background-image: linear-gradient(to right, #2d9bef, #9b2def);
 }
 
+.footer_box_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 40vh;
+  padding: 0 10rem;
+}
+
+.footer_logo {
+  color: white;
+  font-size: 2.4rem;
+  transform: translateX();
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+.footer_box_name {
+  color: white;
+  font-size: 2rem;
+}
+.footer_box a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: grey;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.5rem;
+}
+
+.footer_box_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  background-color: black;
+}
+.footer_box_2 select {
+  background-color: grey;
+}
+
+.footer_box_3 {
+  display: flex;
+  column-gap: 2.5rem;
+  font-size: 1.6rem;
+}
+.footer_box_3 a {
+  text-decoration: none;
+  color: grey;
+}
+
 .header_about_name {
   text-align: center;
   width: 100%;
