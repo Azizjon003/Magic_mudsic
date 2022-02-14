@@ -58,3 +58,29 @@
   background-position: 0 0, 100% 0;
   background-repeat: no-repeat;
 }
+.recently_card {
+  margin-top: 10rem;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 2rem;
+  &_name {
+    font-size: 1.8rem;
+    color: grey;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  &_icon {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: grey;
+    p {
+      display: inline-block;
+    }
+  }
+  img {
+    width: 100%;
+  }
+}
