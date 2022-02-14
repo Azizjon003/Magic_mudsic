@@ -2,12 +2,14 @@
   border: 2px solid $color_white;
   padding: 0.8rem 1.5rem;
   border-radius: 20px;
+  position: relative;
 }
 .log_in__2 {
   border: 2px solid black;
   padding: 0.8rem 1.5rem;
   border-radius: 20px;
   background-color: white;
+  position: relative;
 }
 #color_black {
   color: black;
@@ -22,8 +24,52 @@
     border: 1.5px solid $color_white;
     padding: 8px 2rem;
     border-radius: 20px;
+    position: relative;
     &__1 {
       background-image: linear-gradient(to right, $color_blue__1, $color_pink);
+
+      &:hover::after {
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(
+          to right,
+          $color_blue__1,
+          $color_blue__2
+        );
+        animation-name: btn_hover;
+        animation-duration: 1s;
+        // z-index: ;
+      }
+    }
+    &__2 {
+      &:hover::after {
+        content: " ";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(
+          to right,
+          $color_blue__1,
+          $color_blue__2
+        );
+        animation-name: btn_hover;
+        animation-duration: 1s;
+        // z-index: ;
+      }
     }
   }
+}
+.header_list_a {
+  border-radius: 20px;
+  border: 2px solid $color_pink;
+  padding: 0.5rem 1rem;
+  position: relative;
 }

@@ -1,0 +1,80 @@
+.flow_card {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2rem;
+}
+.flow_section {
+  padding: 5rem 10rem;
+  background-color: black;
+  height: 60rem;
+  &_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+  }
+}
+.flow_card--1 {
+  width: 45rem;
+  height: 30rem;
+  padding: 10rem;
+  position: relative;
+  background-image: url("/img/flow_section/IMG\ BG.png");
+  background-position: center;
+  background-size: cover;
+  // filter: blur(1px);
+  &__1 {
+    filter: blur(0);
+    background-image: url(/img/flow_section/Image\ -57.png);
+    width: 20rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: -5rem;
+    left: -7rem;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    z-index: 10;
+    &__1 {
+      font-size: 6rem;
+      position: absolute;
+      bottom: -15%;
+      left: 35%;
+    }
+  }
+  &__2 {
+    background-image: url("/img/flow_section/Flow\ Body.png");
+    height: 100%;
+    width: 45rem;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .flow_card_about {
+    font-size: 1.6rem;
+    color: white;
+    position: absolute;
+    bottom: 12rem;
+    right: 1rem;
+    &__1 {
+      position: absolute;
+      right: 1rem;
+      bottom: 1rem;
+      font-size: 1.4rem;
+      color: white;
+    }
+  }
+}
+.color_flow {
+  background-image: url("/img/flow_section/BG\ +\ bg\ blur\ 1.png");
+  &--1 {
+    background-image: url("/img/flow_section/BG\ +\ bg\ blur\ -1.png");
+  }
+}

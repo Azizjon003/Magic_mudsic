@@ -48,5 +48,13 @@
   color: $color_blue__1;
 }
 .color_1 {
-  border: 2px solid $color_blue__1;
+}
+.outline_color {
+  border-top: 5px solid $color_blue__1;
+  border-bottom: 5px solid $color_pink;
+  background-image: linear-gradient($color_blue__1, $color_pink),
+    linear-gradient($color_pink, $color_blue__1);
+  background-size: 5px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
 }

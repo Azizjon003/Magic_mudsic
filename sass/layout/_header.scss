@@ -21,6 +21,7 @@
     list-style: none;
     font-size: 1.6rem;
     display: flex;
+    align-items: center;
     column-gap: 2rem;
     a {
       text-decoration: none;
@@ -35,4 +36,25 @@
   flex-direction: column;
   row-gap: 4rem;
   align-items: center;
+}
+.header_color {
+  background-color: black;
+  padding: 1rem 3rem;
+}
+.header_list__1 {
+  position: relative;
+  i {
+    position: absolute;
+    top: 0.8rem;
+    font-size: 2rem;
+    left: 1rem;
+    color: white;
+  }
+  input {
+    height: 3rem;
+    background-color: grey;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  }
 }

@@ -5,7 +5,7 @@
 @import "abstracts/variables";
 @import "layout/header.scss";
 @import "components/button.scss";
-@import "base/animation.scss";
+
 @import "layout/grid";
 @import "pages/home";
 @import "base/typography";
@@ -13,3 +13,5 @@
 @import "components/search";
 @import "components/featurebox";
 @import "base/card";
+@import "base/animation.scss";
+@import "components/flow_section";
