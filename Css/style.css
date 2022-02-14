@@ -521,7 +521,7 @@ body {
   margin-top: 2rem;
 }
 .recently_card_icon {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 2rem;
   color: grey;
@@ -531,6 +531,18 @@ body {
 }
 .recently_card img {
   width: 100%;
+}
+
+.icon_recently {
+  text-align: left;
+}
+
+.recently_name {
+  text-align: left;
+}
+
+.div {
+  font-size: 1.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
