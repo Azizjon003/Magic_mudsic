@@ -1,0 +1,21 @@
+.genre_section {
+  padding: 10rem 10rem;
+  background-color: black;
+  &_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+    img {
+      width: 100%;
+    }
+  }
+}
+.genre_name {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.margin_top {
+  margin-top: 8rem;
+}
