@@ -620,4 +620,106 @@ body {
   background-color: black;
 }
 
+.section_title {
+  padding: 0 15rem;
+  background-color: black;
+  color: white;
+}
+.section_title_1 {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.section_title_1 i {
+  font-size: 1.8rem;
+}
+.section_title_name {
+  padding: 0.8rem;
+  border-bottom: 3px solid white;
+}
+.section_title_table {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+}
+.section_title_table:hover {
+  background-color: rgba(255, 255, 255, 0.293);
+}
+
+.title_group {
+  text-transform: uppercase;
+  display: flex;
+  gap: 10rem;
+}
+
+.profil_section {
+  padding: 5rem 15rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profil_section_2 {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.profil_section_name {
+  color: white;
+  font-size: 2rem;
+}
+.profil_section_name_1 {
+  color: white;
+  font-size: 3.6rem;
+  margin-top: 2rem;
+}
+.profil_section_name_2 {
+  color: grey;
+  font-size: 1.4rem;
+}
+.profil_section_list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.profil_section_list li {
+  color: white;
+  font-size: 1.8rem;
+}
+.profil_section_list li:hover {
+  color: #9b2def;
+  cursor: pointer;
+}
+.profil_section_3 a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+  padding: 0.5rem 3rem;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #2d9bef, #35edfb, #9b2def);
+}
+.profil_section_3 p {
+  color: grey;
+  margin-top: 12rem;
+  margin-left: 10rem;
+  font-size: 1.6rem;
+}
+
+.profil_lists :not(:last-child) {
+  margin-right: 2rem;
+}
+.profil_lists i {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

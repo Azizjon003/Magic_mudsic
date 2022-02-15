@@ -1,0 +1,78 @@
+.profil_section {
+  padding: 5rem 15rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &_2 {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    &__1 {
+    }
+  }
+  &_name {
+    color: white;
+    font-size: 2rem;
+    &_1 {
+      color: white;
+      font-size: 3.6rem;
+      margin-top: 2rem;
+    }
+    &_2 {
+      color: grey;
+      font-size: 1.4rem;
+    }
+  }
+  &_list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+
+    li {
+      color: white;
+      font-size: 1.8rem;
+      &:hover {
+        color: $color_pink;
+        cursor: pointer;
+      }
+    }
+  }
+  &_3 {
+    a {
+      text-decoration: none;
+      font-size: 2rem;
+      color: white;
+      display: inline-block;
+      width: 15rem;
+      text-align: center;
+      padding: 0.5rem 3rem;
+      border-radius: 20px;
+      background-image: linear-gradient(
+        to right,
+        $color_blue__1,
+        $color_blue__2,
+        $color_pink
+      );
+    }
+    p {
+      color: grey;
+      margin-top: 12rem;
+      margin-left: 10rem;
+      font-size: 1.6rem;
+    }
+  }
+}
+.profil_lists {
+  :not(:last-child) {
+    margin-right: 2rem;
+  }
+  i {
+    font-size: 1.6rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+  }
+}
