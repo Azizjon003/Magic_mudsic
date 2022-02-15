@@ -622,7 +622,6 @@ body {
 
 .section_title {
   padding: 0 15rem;
-  background-color: black;
   color: white;
 }
 .section_title_1 {
@@ -656,7 +655,6 @@ body {
 
 .profil_section {
   padding: 5rem 15rem;
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -720,6 +718,12 @@ body {
   border-radius: 50%;
   border: 1px solid white;
   color: white;
+}
+
+.profil_main {
+  background-image: url("/img/circle_img/BG.png");
+  background-position: center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

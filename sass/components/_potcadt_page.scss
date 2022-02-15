@@ -1,6 +1,5 @@
 .profil_section {
   padding: 5rem 15rem;
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,4 +74,9 @@
     border: 1px solid white;
     color: white;
   }
+}
+.profil_main {
+  background-image: url("/img/circle_img/BG.png");
+  background-position: center;
+  background-size: cover;
 }
