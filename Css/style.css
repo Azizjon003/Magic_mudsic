@@ -569,4 +569,55 @@ body {
   margin-top: 8rem;
 }
 
+.margin_bottom {
+  margin-top: -18rem;
+}
+
+.episod_section {
+  background-color: black;
+  padding: 0 10rem;
+}
+.episod_section__1 {
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.episod_section_name__1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #f7f7f7;
+}
+.episod_section_card {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 3rem;
+}
+.episod_section_card__text {
+  color: white;
+}
+.episod_section_card__text h3 {
+  margin-top: -2rem;
+  font-size: 1.4rem;
+}
+.episod_section_card__text p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.episod_section_card__1 {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+
+.genre_section_1 {
+  padding: 10rem 10rem;
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
