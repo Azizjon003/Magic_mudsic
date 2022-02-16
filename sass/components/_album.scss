@@ -1,0 +1,27 @@
+.album_section {
+  color: $color-white;
+  padding: 2rem 15rem;
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  text-transform: uppercase;
+  text-align: left;
+  column-gap: 2rem;
+  &__1 {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+  }
+  &_4 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jadval_icon_1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
+.bosh_joy {
+  height: 15rem;
+}
