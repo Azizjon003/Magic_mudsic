@@ -726,4 +726,40 @@ body {
   background-size: cover;
 }
 
+.playlist_section {
+  background-color: black;
+  color: white;
+  padding: 0 10rem;
+}
+
+.playlist_title {
+  align-items: center;
+}
+
+.jadval_section {
+  padding: 5rem 15rem;
+  display: grid;
+  grid-template-columns: 10% 20% 30% 30% 10%;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: white;
+  column-gap: 3rem;
+}
+.jadval_section_2 {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.jadval_section_5 {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.jadval_text {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 2rem 15rem;
+}
+
 /*# sourceMappingURL=style.css.map */
