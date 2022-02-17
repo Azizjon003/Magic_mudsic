@@ -23,6 +23,26 @@
     &_img {
       display: flex;
       column-gap: 3rem;
+      &__1 {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+    &_artist {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 2rem;
+      &__1 {
+        display: flex;
+        column-gap: 2rem;
+        align-items: center;
+        font-size: 1.5rem;
+        color: white;
+      }
     }
   }
   &_text {
@@ -58,5 +78,19 @@
       border: 2px solid white;
       border-radius: 20px;
     }
+  }
+}
+/*SEARCH POP UP */
+#popup_menu__a {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+}
+#texts_pop {
+  h4 {
+    color: white;
+  }
+  p {
+    color: rgb(64, 65, 66);
   }
 }

@@ -874,6 +874,26 @@ body {
   display: flex;
   column-gap: 3rem;
 }
+.popup_music_img__1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.popup_music_artist {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.popup_music_artist__1 {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
 .popup_text {
   display: flex;
   flex-direction: column;
@@ -906,6 +926,20 @@ body {
   padding: 0.5rem 1rem;
   border: 2px solid white;
   border-radius: 20px;
+}
+
+/*SEARCH POP UP */
+#popup_menu__a {
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+}
+
+#texts_pop h4 {
+  color: white;
+}
+#texts_pop p {
+  color: #404142;
 }
 
 /*# sourceMappingURL=style.css.map */
