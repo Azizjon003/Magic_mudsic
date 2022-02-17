@@ -3,3 +3,23 @@
   text-align: center;
   padding: 2rem;
 }
+.flow_section_group {
+  display: flex;
+  column-gap: 3rem;
+  align-items: center;
+  a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+.listeningHistory {
+  background-color: black;
+  padding: 10rem 10rem;
+}
+.column {
+  justify-content: space-between;
+  width: 107%;
+  margin-top: 2rem;
+}
