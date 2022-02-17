@@ -1,0 +1,48 @@
+.new_created_playlist {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.39);
+  &--1 {
+    background-color: #3a3a3d;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 40vw;
+  }
+}
+.playlist__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  &_input {
+    text-align: center;
+    input,
+    textarea {
+      width: 90%;
+      height: 3.5rem;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid white;
+      margin-top: 3rem;
+      color: white;
+    }
+  }
+
+  &_button {
+    margin-top: 5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+  }
+}
+.playlist_a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem 3rem;
+}
