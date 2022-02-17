@@ -231,6 +231,11 @@ body {
   width: 15%;
 }
 
+.main {
+  background-color: black;
+  padding: 2rem 15rem;
+}
+
 .header_about_name {
   text-align: center;
   width: 100%;
@@ -788,6 +793,119 @@ body {
 
 .bosh_joy {
   height: 15rem;
+}
+
+.nav_menu_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.4rem;
+}
+.nav_menu_text select {
+  border: none;
+  background-color: transparent;
+  color: gray;
+}
+
+.nav_menu__1 {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.main_card {
+  padding: 3rem;
+  height: 20rem;
+  width: 20rem;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 2rem;
+  color: white;
+}
+.main_card i {
+  font-size: 1.8rem;
+  background-color: #0084ff;
+  padding: 8px;
+  border-radius: 50%;
+}
+.main_card__1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: white;
+}
+.main_card__1 p {
+  font-size: 1.4rem;
+}
+
+.popup_main {
+  display: flex;
+  justify-content: right;
+  padding: 5rem 0;
+}
+
+.popup {
+  background-color: gray;
+  width: 43rem;
+  padding: 2rem 3rem;
+}
+.popup--menu {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.popup_music {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.popup_music_img {
+  display: flex;
+  column-gap: 3rem;
+}
+.popup_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  font-size: 1.4rem;
+  color: white;
+}
+.popup_text h4 {
+  color: #158ad8;
+  font-size: 1.6rem;
+}
+.popup_icon {
+  display: flex;
+  column-gap: 3rem;
+  font-size: 1.5rem;
+}
+.popup_menu__1 {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup_menu__1 h2 {
+  font-size: 1.6rem;
+}
+.popup_menu__1 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
