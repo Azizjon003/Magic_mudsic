@@ -32,6 +32,10 @@ body {
   height: 50rem;
 }
 
+.margin-top {
+  height: 8rem;
+}
+
 .header {
   width: 100vw;
   height: 100vh;
@@ -62,6 +66,15 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 600;
+  transition: all 0.5s;
+}
+.header_list a:hover {
+  display: inline-block;
+  background-image: linear-gradient(to right, #2d9bef, #35edfb, #9b2def);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: scale(1.05);
 }
 
 .header_about {
@@ -259,6 +272,10 @@ body {
 .section_form img {
   width: 15%;
 }
+.section_form img:hover {
+  transform: translateY(-20px) scale(1.1);
+  box-shadow: 0 1.5rem 3rem rgba(250, 250, 255, 0.295);
+}
 
 .main {
   background-color: black;
@@ -338,6 +355,10 @@ body {
   color: #fff;
   font-size: 5rem;
 }
+.premium_section_name:hover {
+  transform: skewY(5deg) skewX(10deg);
+  cursor: pointer;
+}
 
 .section_card_name {
   font-size: 2rem;
@@ -367,6 +388,11 @@ body {
   background-position: center;
   background-size: cover;
   padding: 20rem;
+  transition: all 0.5s;
+}
+.listen_section:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .search_section {
@@ -401,6 +427,32 @@ body {
     opacity: 0;
   }
 }
+@keyframes rotate {
+  50% {
+    transform: rotatey(-180deg) scale(1.2);
+  }
+  75% {
+    transform: rotateY(-90deg);
+  }
+  100% {
+    transform: rotateY(0) scale(1.2);
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: translateY(15px) scale(1.1);
+    box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.527);
+  }
+  25% {
+    transform: translatey(10px);
+  }
+  50% {
+    transform: translateY(15px) scale(1.1);
+  }
+  75% {
+    box-shadow: 0 1.5rem 3rem rgba(255, 255, 255, 0.527);
+  }
+}
 .flow_card {
   margin-top: 10rem;
   display: flex;
@@ -430,6 +482,9 @@ body {
   background-image: url("/img/flow_section/IMG BG.png");
   background-position: center;
   background-size: cover;
+}
+.flow_card--1:hover {
+  animation: rotate 2s;
 }
 .flow_card--1__1 {
   filter: blur(0);
@@ -494,6 +549,11 @@ body {
 .section_card__1 {
   text-align: center;
 }
+.section_card__1:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, -1px -1px 15px 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 10px 13px -7px #000000, -1px -1px 15px 9px rgba(0, 0, 0, 0.3);
+}
 
 .section_premium_card {
   margin-top: 10rem;
@@ -506,6 +566,10 @@ body {
   padding: 3.5rem 2rem;
   margin-top: 5rem;
   margin-left: 20rem;
+}
+.premium_card--1:hover {
+  transform: scale(1.1);
+  animation: rotate 1.5s;
 }
 
 .premuim_card--1__1 {
@@ -587,6 +651,24 @@ body {
   font-size: 1.6rem;
 }
 
+.search_section_box:hover + img {
+  animation: rotate 2s;
+}
+
+.recently_card--1:hover img {
+  animation: scale 1s;
+  transform: translateY(15px) scale(1.1);
+  box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.527);
+}
+
+.like {
+  transition: all 0.5s;
+}
+.like:hover {
+  color: red;
+  transform: scale(1.2);
+}
+
 .genre_section {
   padding: 10rem 10rem;
   background-color: black;
@@ -599,6 +681,11 @@ body {
 }
 .genre_section_1 img {
   width: 100%;
+  transition: all 0.5s;
+}
+.genre_section_1 img:hover {
+  transform: translateY(-20px) scale(1.1);
+  box-shadow: 0 1.5rem 3rem rgba(250, 250, 255, 0.295);
 }
 
 .genre_name {
@@ -677,6 +764,16 @@ body {
 .section_title_name {
   padding: 0.8rem;
   border-bottom: 3px solid white;
+  transition: all 0.5s;
+}
+.section_title_name:hover {
+  cursor: pointer;
+  display: inline-block;
+  background-image: linear-gradient(to right, #2d9bef, #35edfb, #9b2def);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: scale(1.05);
 }
 .section_title_table {
   margin-top: 3rem;
@@ -788,6 +885,12 @@ body {
   color: white;
   column-gap: 3rem;
 }
+.jadval_section:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(102, 97, 97, 0.418);
+  backdrop-filter: blur(5px);
+}
 .jadval_section_2 {
   display: flex;
   align-items: center;
@@ -827,9 +930,19 @@ body {
   justify-content: space-between;
   gap: 3rem;
 }
+.album_section:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(102, 97, 97, 0.418);
+  backdrop-filter: blur(5px);
+}
 
 .bosh_joy {
   height: 15rem;
+}
+
+#profil_main {
+  overflow: hidden;
 }
 
 .nav_menu_text {
@@ -875,11 +988,18 @@ body {
 .main_card__1 {
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 2rem;
   color: white;
+}
+.main_card__1 img:hover {
+  animation: scale 1s;
 }
 .main_card__1 p {
   font-size: 1.4rem;
+}
+
+.main {
+  overflow: hidden;
 }
 
 .popup_main {
@@ -987,7 +1107,7 @@ body {
 
 .settings {
   padding: 0 15rem;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgba(0, 0, 0, 0.747);
 }
 .settings label {
   display: flex;
@@ -1117,6 +1237,123 @@ body {
   text-decoration: none;
   color: white;
   padding: 1rem 3rem;
+}
+
+.signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.295);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+}
+.signup_1 {
+  background-color: white;
+  padding: 4rem 5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.377);
+}
+.signup_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.signup_name {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.signup_name__1 {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin-left: 4rem;
+}
+.signup_name__1 label {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+.signup_name__1 input {
+  border: none;
+  outline: none;
+  width: 80%;
+  margin-bottom: 2rem;
+  height: 4rem;
+  border: 1px solid #045e9b;
+  border-radius: 5px;
+}
+.signup_google {
+  font-size: 1.6rem;
+  margin: 2rem 4rem;
+}
+.signup_google p {
+  background-color: #045e9b;
+  padding: 1rem 8rem 1rem 1.5rem;
+  border-radius: 20px;
+  margin-right: 2rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.288);
+}
+.signup_google p:first-child {
+  color: white;
+}
+.signup_google p:last-child {
+  color: white;
+}
+.signup_select {
+  width: 75%;
+}
+.signup_select select {
+  display: inline-block;
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 5px;
+}
+
+.check {
+  color: black;
+  border: 1px solid #045e9b;
+  padding: 2rem;
+  width: 70%;
+  margin-left: 5rem;
+}
+.check input {
+  margin-right: 5rem;
+  display: inline-block;
+  width: 3rem;
+}
+.check label {
+  margin-right: 3rem;
+}
+
+#signup_a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1rem 6rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#sign_label {
+  display: flex;
+  column-gap: 2rem;
+  margin-left: 3rem;
+}
+#sign_label input {
+  display: inline-block;
+  transform: scale(1.5);
+}
+
+.margin_bottom {
+  margin-top: -1rem;
+}
+
+.margin-top {
+  height: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

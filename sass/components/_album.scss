@@ -7,6 +7,7 @@
   text-transform: uppercase;
   text-align: left;
   column-gap: 2rem;
+
   &__1 {
     font-size: 1.5rem;
     text-transform: capitalize;
@@ -20,8 +21,17 @@
     justify-content: space-between;
     gap: 3rem;
   }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(102, 97, 97, 0.418);
+    backdrop-filter: blur(5px);
+  }
 }
 
 .bosh_joy {
   height: 15rem;
+}
+#profil_main {
+  overflow: hidden;
 }

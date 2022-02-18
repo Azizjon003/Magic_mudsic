@@ -26,6 +26,9 @@
   background-position: center;
   background-size: cover;
   // filter: blur(1px);
+  &:hover {
+    animation: rotate 2s;
+  }
   &__1 {
     filter: blur(0);
     background-image: url(/img/flow_section/Image\ -57.png);

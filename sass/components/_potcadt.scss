@@ -60,6 +60,16 @@
   &_name {
     padding: 0.8rem;
     border-bottom: 3px solid white;
+    transition: all 0.5s;
+    &:hover {
+      cursor: pointer;
+      display: inline-block;
+      background-image: linear-gradient(to right, #2d9bef, #35edfb, #9b2def);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      transform: scale(1.05);
+    }
   }
   &_table {
     margin-top: 3rem;

@@ -1,0 +1,111 @@
+.signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.295);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  &_1 {
+    background-color: white;
+    padding: 4rem 5rem;
+    border-radius: 1rem;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.377);
+  }
+  &_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+  &_name {
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    &__1 {
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      row-gap: 0.5rem;
+      margin-left: 4rem;
+
+      label {
+        font-size: 1.4rem;
+        text-transform: capitalize;
+      }
+      input {
+        border: none;
+        outline: none;
+        width: 80%;
+        margin-bottom: 2rem;
+        height: 4rem;
+        border: 1px solid rgb(4, 94, 155);
+        border-radius: 5px;
+      }
+    }
+  }
+  &_google {
+    font-size: 1.6rem;
+    margin: 2rem 4rem;
+
+    p {
+      background-color: rgb(4, 94, 155);
+      padding: 1rem 8rem 1rem 1.5rem;
+      border-radius: 20px;
+      margin-right: 2rem;
+      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.288);
+      &:first-child {
+        color: white;
+      }
+      &:last-child {
+        color: white;
+      }
+    }
+  }
+  &_select {
+    width: 75%;
+    select {
+      display: inline-block;
+      width: 15rem;
+      height: 3.5rem;
+      border-radius: 5px;
+    }
+  }
+}
+.check {
+  color: black;
+  border: 1px solid rgb(4, 94, 155);
+  padding: 2rem;
+  width: 70%;
+  margin-left: 5rem;
+  input {
+    margin-right: 5rem;
+    display: inline-block;
+    width: 3rem;
+  }
+  label {
+    margin-right: 3rem;
+  }
+}
+#signup_a {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1rem 6rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+#sign_label {
+  display: flex;
+  column-gap: 2rem;
+  margin-left: 3rem;
+  input {
+    display: inline-block;
+    transform: scale(1.5);
+  }
+}
+
+.margin_bottom {
+  margin-top: -1rem;
+}
