@@ -5,6 +5,16 @@
 }
 html {
   font-size: 62.5%;
+
+  @include responsive(big) {
+    font-size: 70%;
+  }
+  @include responsive(tab_land) {
+    font-size: 56.25%;
+  }
+  @include responsive(portrait) {
+    font-size: 50%;
+  }
 }
 
 body {

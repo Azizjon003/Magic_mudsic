@@ -3,4 +3,10 @@
   // height: 100vh;
   background-color: #161a1a;
   padding: 15rem;
+  @include responsive(portrait) {
+    padding: 10rem;
+  }
+  @include responsive(portrait) {
+    padding: 5rem;
+  }
 }

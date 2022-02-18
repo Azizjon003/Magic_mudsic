@@ -4,10 +4,27 @@
   font-size: 5.6rem;
   color: white;
   line-height: 1.4;
+  @include responsive(big) {
+    font-size: 6rem;
+  }
+  @include responsive(tab_land) {
+    font-size: 3.5rem;
+  }
+  @include responsive(phone) {
+    font-size: 2rem;
+    width: 50vw;
+    line-height: 1.6;
+    margin-left: -15rem;
+  }
 }
 .button_about {
   font-size: 1.6rem;
   color: $color_white;
+  @include responsive(phone) {
+    width: 50vw;
+    line-height: 1.8;
+    margin-left: -12rem;
+  }
   span {
     color: $color_blue__1;
   }
@@ -23,11 +40,19 @@
     width: 60%;
     line-height: 1.8;
     color: grey;
+    @include responsive(phone) {
+      width: 150%;
+    }
   }
 }
 .listen_section_name {
   font-size: 4.4rem;
   color: $color_white;
+  @include responsive(phone) {
+    font-size: 1.4rem;
+    width: 30rem;
+    margin-left: -12rem;
+  }
 }
 .listen_section_about {
   font-size: 1.8rem;
@@ -36,6 +61,11 @@
   letter-spacing: 3px;
   line-height: 1.7;
   color: white;
+  @include responsive(phone) {
+    font-size: 1.4rem;
+    width: 30rem;
+    margin-left: -12rem;
+  }
 }
 .search_section_name {
   font-size: 3rem;
@@ -47,6 +77,10 @@
   color: grey;
   width: 100%;
   line-height: 1.8;
+  @include responsive(portrait) {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
   span {
     color: $color_blue__1;
   }

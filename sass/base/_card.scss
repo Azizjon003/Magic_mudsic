@@ -3,6 +3,21 @@
   padding: 0 15rem;
   display: flex;
   justify-content: space-between;
+  @include responsive(big) {
+    padding: 0 20rem;
+  }
+  @include responsive(tab_land) {
+    padding: 0 5rem;
+  }
+
+  @include responsive(phone) {
+    padding: 0 5rem;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
 }
 .section_card__1 {
   text-align: center;
@@ -16,6 +31,13 @@
 }
 .section_premium_card {
   margin-top: 10rem;
+  @include responsive(portrait) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+  }
 }
 .premium_card--1 {
   display: inline-block;
@@ -24,6 +46,9 @@
   padding: 3.5rem 2rem;
   margin-top: 5rem;
   margin-left: 20rem;
+  @include responsive(portrait) {
+    margin-left: 0;
+  }
   &:hover {
     transform: scale(1.1);
     animation: rotate 1.5s;

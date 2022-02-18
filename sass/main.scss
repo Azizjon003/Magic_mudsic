@@ -1,7 +1,8 @@
+@import "abstracts/mixins";
 @import "base/reset";
 @import "components/about_section";
 @import "base/utilities";
-@import "abstracts/mixins";
+
 @import "abstracts/variables";
 @import "layout/header.scss";
 @import "components/button.scss";

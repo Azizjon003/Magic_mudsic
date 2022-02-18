@@ -1,12 +1,15 @@
 .listen_section {
-  width: 100%;
+  width: 100vw;
   height: 60vh;
   background-image: url("/Listen\ anytime\,\ anywhere.png");
   background-position: center;
   background-size: cover;
   padding: 20rem;
   transition: all 0.5s;
-
+  @include responsive(portrait) {
+    width: 100vw;
+    height: auto;
+  }
   &:hover {
     cursor: pointer;
     transform: scale(1.1);

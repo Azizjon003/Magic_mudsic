@@ -5,7 +5,15 @@
   background-image: url("/img/headerbackground.png");
   background-position: center;
   background-size: cover;
-
+  @include responsive(big) {
+    height: auto;
+  }
+  @include responsive(tab_land) {
+    text-align: center;
+  }
+  @include responsive(phone) {
+    height: auto;
+  }
   padding: 2rem 10rem;
   &_logo {
     font-size: 3rem;
@@ -23,6 +31,9 @@
     display: flex;
     align-items: center;
     column-gap: 2rem;
+    @include responsive(phone) {
+      display: none;
+    }
 
     a {
       text-decoration: none;
@@ -41,7 +52,17 @@
   }
 }
 .header_about {
-  margin: 20rem 40rem;
+  margin: 15rem 30rem;
+  @include responsive(big) {
+    margin: 20rem 40rem;
+  }
+  @include responsive(tab_land) {
+    margin: 10rem 25rem;
+  }
+  @include responsive(portrait) {
+    margin: 7rem 20rem;
+  }
+
   display: flex;
   flex-direction: column;
   row-gap: 4rem;

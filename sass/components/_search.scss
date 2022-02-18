@@ -6,7 +6,24 @@
   justify-content: space-around;
   align-items: center;
   padding: 15rem 20rem;
+  @include responsive(big) {
+    padding: 18rem 22rem;
+  }
+
+  @include responsive(tab_land) {
+    padding: 13rem 15rem;
+  }
+  @include responsive(porait) {
+    padding: 10rem 8rem;
+  }
+
   img {
     width: 60%;
+  }
+  @include responsive(phone) {
+    padding: 5rem 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

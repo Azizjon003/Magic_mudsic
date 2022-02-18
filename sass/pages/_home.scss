@@ -5,6 +5,11 @@
   background-color: black;
   height: 40vh;
   padding: 0 10rem;
+  @include responsive(portrait) {
+    flex-direction: column;
+    height: auto;
+    row-gap: 3rem;
+  }
 }
 .footer_logo {
   color: white;
@@ -30,6 +35,10 @@
   flex-direction: row;
   column-gap: 1.5rem;
   transform: translateY(-60px);
+
+  @include responsive(portrait) {
+    margin-top: 8rem;
+  }
 }
 .footer_box_2 {
   display: flex;
@@ -39,6 +48,10 @@
   background-color: black;
   select {
     background-color: grey;
+  }
+  @include responsive(phone) {
+    flex-direction: column;
+    row-gap: 3rem;
   }
 }
 .footer_box_3 {
