@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
+
     <title>Magic Music</title>
   </head>
   <body>
@@ -15,11 +23,13 @@
           <li><a href="#">Download</a></li>
           <li><a href="#">Help</a></li>
           <li>
-            <a href="" class="log_in__1 header_about_button--1__2">Log In</a>
+            <a href="#sign_up" class="log_in__1 header_about_button--1__2"
+              >Log In</a
+            >
           </li>
           <li>
             <a
-              href=""
+              href="#sign_in"
               class="log_in__2 header_about_button--1__2"
               id="color_black"
               >Sign In</a
@@ -183,6 +193,98 @@
         </div>
       </footer>
     </main>
+
+    <section class="signup" id="sign_up">
+      <div class="signup_1">
+        <div class="signup_section">
+          <div class="signup_icon">
+            <p></p>
+            <a href="#"><i class="fa-solid fa-x"></i></a>
+          </div>
+          <div class="signup_name">What will you listen to today?</div>
+          <div class="signup_google signup_icon">
+            <p><i class="fa-brands fa-facebook-f"></i> Facebook</p>
+            <p><i class="fa-brands fa-google"></i> Google</p>
+          </div>
+          <div class="signup_name__1">
+            <label for="">Email address or username</label>
+            <input type="email" />
+          </div>
+          <div class="signup_name__1 margin_bottom">
+            <label for="">Password</label>
+            <input type="password" />
+          </div>
+
+          <div class="text-align_center signup_icon">
+            <label for="" class="signup_icon" id="sign_label">
+              <input type="checkbox" />
+              <p>Remember me</p>
+            </label>
+
+            <a
+              href="home.html"
+              class="header_list_a header_about_button--1__2"
+              id="signup_a"
+              >Log In</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- main qism -->
+    <section class="signup" id="sign_in">
+      <div class="signup_1">
+        <div class="signup_section">
+          <div class="signup_icon">
+            <p></p>
+            <a href="#"><i class="fa-solid fa-x"></i></a>
+          </div>
+          <div class="signup_name">ready to sign up?</div>
+          <div class="signup_google signup_icon">
+            <p><i class="fa-brands fa-facebook-f"></i> Facebook</p>
+            <p><i class="fa-brands fa-google"></i> Google</p>
+          </div>
+          <div class="signup_name__1">
+            <label for="">email address</label>
+            <input type="email" />
+          </div>
+          <div class="signup_name__1 margin_bottom">
+            <label for="">Password</label>
+            <input type="password" />
+          </div>
+          <div class="signup_name__1 margin_bottom">
+            <label for=""></label>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="signup_google signup_icon signup_select">
+            <select name="" id="">
+              <option value="">1999.12.12</option>
+              <option value="">1999.13.12</option>
+
+              <option value="">1999.14.12</option>
+            </select>
+            <select name="" id="">
+              <option value="">Gender</option>
+              <option value="">1999.13.12</option>
+
+              <option value="">1999.14.12</option>
+            </select>
+          </div>
+          <div class="signup_name check">
+            <input type="checkbox" />
+            <label>I am not robot</label>
+          </div>
+
+          <div class="text-align_center">
+            <a
+              href="home.html"
+              class="header_list_a header_about_button--1__2"
+              id="signup_a"
+              >Sign UP</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

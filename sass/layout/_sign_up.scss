@@ -6,6 +6,16 @@
   justify-content: center;
   align-items: center;
   padding: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
   &_1 {
     background-color: white;
     padding: 4rem 5rem;

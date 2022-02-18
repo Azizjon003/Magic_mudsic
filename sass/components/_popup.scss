@@ -4,9 +4,10 @@
   padding: 5rem 0;
 }
 .popup {
-  background-color: gray;
+  background-color: rgba(66, 63, 63, 0.856);
   width: 43rem;
   padding: 2rem 3rem;
+  border-radius: 10px;
   &--menu {
     display: flex;
     justify-content: space-between;
