@@ -13,7 +13,7 @@ body {
 }
 
 .about_section {
-  width: 100%;
+  width: 90%;
   height: 80vh;
   display: flex;
   justify-content: space-between;
@@ -37,7 +37,6 @@ body {
 }
 
 .header {
-  width: 100vw;
   height: 100vh;
   background-color: black;
   background-image: url("/img/headerbackground.png");
@@ -1107,8 +1106,8 @@ body {
 }
 
 .settings {
-  padding: 0 15rem;
-  background-color: rgba(0, 0, 0, 0.747);
+  padding: 2rem 15rem;
+  background-color: #161a1a;
 }
 .settings label {
   display: flex;
