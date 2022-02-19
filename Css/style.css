@@ -1659,6 +1659,14 @@ body {
   right: 4rem;
   transform: scale(4);
   color: white;
+  opacity: 0;
+  visibility: hidden;
+}
+@media (max-width: 37.5em) {
+  .burger_menu__1 {
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 .checkbox_11:checked ~ .burger_menu #header_list {

@@ -17,6 +17,12 @@
     right: 4rem;
     transform: scale(4);
     color: white;
+    opacity: 0;
+    visibility: hidden;
+    @include responsive(phone) {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 }
 .checkbox_11:checked ~ .burger_menu #header_list {
