@@ -27,6 +27,10 @@ body {
   font-family: sans-serif;
 }
 
+input {
+  outline: none;
+}
+
 .about_section {
   width: 100%;
   height: 80vh;
@@ -177,8 +181,14 @@ body {
 }
 
 .header_color {
-  background-color: black;
   padding: 1rem 3rem;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000;
 }
 
 .header_list__1 {
@@ -1157,10 +1167,11 @@ body {
   font-size: 1.6rem;
   color: white;
   column-gap: 3rem;
+  transition: all 1s;
 }
 .jadval_section:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
   background-color: rgba(102, 97, 97, 0.418);
   backdrop-filter: blur(5px);
 }
@@ -1282,10 +1293,19 @@ body {
 }
 
 .popup {
-  background-color: rgba(66, 63, 63, 0.856);
+  background-color: #333;
   width: 43rem;
   padding: 2rem 3rem;
   border-radius: 10px;
+  position: fixed;
+  top: 5rem;
+  right: 10rem;
+  opacity: 0;
+  visibility: hidden;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
 }
 .popup--menu {
   display: flex;
@@ -1464,12 +1484,21 @@ body {
 }
 
 .new_created_playlist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.39);
+}
+.new_created_playlist:target {
+  opacity: 1;
+  visibility: visible;
 }
 .new_created_playlist--1 {
   background-color: #3a3a3d;
@@ -1704,6 +1733,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.player i:hover {
+  color: #2d9bef;
+  transform: scale(1.1);
+}
 .player__group {
   display: flex;
   align-items: center;
@@ -1724,6 +1757,10 @@ body {
   font-size: 1.8rem;
   color: white;
 }
+.player__group i:hover {
+  color: #2d9bef;
+  transform: scale(1.1);
+}
 .player__group__1 {
   display: flex;
   flex-direction: column;
@@ -1740,7 +1777,7 @@ body {
 .player__group__1--3 div {
   width: 20vw;
   height: 0.5rem;
-  background-color: #1c7ac7;
+  background-image: linear-gradient(to right, #9b2def, #2d9bef);
   border-radius: 1.5rem;
 }
 
@@ -1764,7 +1801,7 @@ body {
 .palyer__group__2 div {
   width: 5vw;
   height: 0.5rem;
-  background-color: white;
+  background-image: linear-gradient(to right, #9b2def, #2d9bef);
   border-radius: 10px;
 }
 

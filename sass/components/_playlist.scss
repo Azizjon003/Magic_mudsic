@@ -20,9 +20,10 @@
   font-size: 1.6rem;
   color: white;
   column-gap: 3rem;
+  transition: all 1s;
   &:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.05);
     background-color: rgba(102, 97, 97, 0.418);
     backdrop-filter: blur(5px);
   }

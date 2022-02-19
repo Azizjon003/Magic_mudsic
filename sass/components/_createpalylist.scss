@@ -1,4 +1,13 @@
 .new_created_playlist {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
   width: 100vw;
   height: 100vh;
   display: flex;

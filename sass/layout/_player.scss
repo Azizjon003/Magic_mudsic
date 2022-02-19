@@ -9,6 +9,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  i {
+    &:hover {
+      color: #2d9bef;
+      transform: scale(1.1);
+    }
+  }
   &__group {
     display: flex;
     align-items: center;
@@ -28,6 +34,10 @@
     i {
       font-size: 1.8rem;
       color: white;
+      &:hover {
+        color: #2d9bef;
+        transform: scale(1.1);
+      }
     }
 
     &__1 {
@@ -45,7 +55,7 @@
       div {
         width: 20vw;
         height: 0.5rem;
-        background-color: rgb(28, 122, 199);
+        background-image: linear-gradient(to right, #9b2def, #2d9bef);
         border-radius: 1.5rem;
       }
     }
@@ -70,7 +80,7 @@
   div {
     width: 5vw;
     height: 0.5rem;
-    background-color: white;
+    background-image: linear-gradient(to right, #9b2def, #2d9bef);
     border-radius: 10px;
   }
 }
