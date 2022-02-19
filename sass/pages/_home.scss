@@ -10,6 +10,12 @@
     height: auto;
     row-gap: 3rem;
   }
+  @include responsive(phone) {
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    padding: 5rem 10rem;
+  }
 }
 .footer_logo {
   color: white;
@@ -20,6 +26,9 @@
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
+  @include responsive(phone) {
+    align-self: flex-start;
+  }
   &_name {
     color: white;
     font-size: 2rem;

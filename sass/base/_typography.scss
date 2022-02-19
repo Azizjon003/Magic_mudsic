@@ -31,6 +31,9 @@
 }
 .about_section_1 {
   color: white;
+  @include responsive(phone) {
+    margin-right: 15rem;
+  }
   &_name {
     font-size: 4.4rem;
     margin-bottom: 1rem;
@@ -92,6 +95,9 @@
   &:hover {
     transform: skewY(5deg) skewX(10deg);
     cursor: pointer;
+  }
+  @include responsive(phone) {
+    font-size: 4rem;
   }
 }
 .section_card_name {
